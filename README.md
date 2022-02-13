@@ -460,19 +460,18 @@ The app's functionality includes:
 ## Installation
 
 1. Fork and clone this respository.
-1. Run `cp ./env.sample .env`.
-1. Update `.env` file with the connection URL's and other keys.
-1. Run `npm install` to install project dependencies.
-1. Run `npm run dev` to start your app in development mode.
+1. Run `npm run env`.
+1. Update `.env` file with the connection URL's.
+1. Run `npm run install` to install project dependencies.
+1. Run `npm run start` to start your app in development mode.
 
 If you have trouble getting the server to run, reach out for assistance.
 
 
 ## Acknowledgements
 
-- This project was inspired by Thinkful flashcards capstone.
-- This project was based on [JWT Authentication Tutorial with Example App](https://jasonwatmore.com/post/2021/08/04/next-js-11-jwt-authentication-tutorial-with-example-app) and [Redux fundementals tutorial](https://redux.js.org/tutorials/fundamentals/part-8-modern-redux).
-- Many thanks to [Thinkful](https://www.thinkful.com/), [Marius Banea](https://www.linkedin.com/in/mariusbanea/), [Jason Watmore](https://jasonwatmore.com/), [Redux](https://redux.js.org/), and [Stackoverflow](https://stackoverflow.com/).
+- This project was inspired by Thinkful We-love-movies capstone.
+- Many thanks to [Thinkful](https://www.thinkful.com/), [Marius Banea](https://www.linkedin.com/in/mariusbanea/), and [Stackoverflow](https://stackoverflow.com/).
 
 ## Contact
 Created by [Nam Nguyen](https://www.flynerd.pl/) - feel free to contact me!

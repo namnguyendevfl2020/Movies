@@ -4,6 +4,7 @@
   "description": "Movies app",
   "main": "index.js",
   "scripts": {
+    "env": "cd back-end && cp .env.sample .env",
     "build": "npm -prefix front-end run build",
     "preinstall": "npm i --save-dev concurrently",
     "install": "concurrently \"cd ./back-end && npm install\" \"cd ./front-end && npm install\"",
