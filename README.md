@@ -1,5 +1,5 @@
 # We-love-movies  
-We-love-movies is an app created for users to review movies with their showing theaters
+We-love-movies is an app created for users to review movies with their showing theaters.
 You can access a working prototype of the ReactJs app here: https://namnguyen-movies-frontend.herokuapp.com 
 
 ## Table of Contents
@@ -70,16 +70,16 @@ The app's functionality includes:
 
 ## Front-end Structure
 
-  * __app.jsx__ 
-      * __Header.jsx__ 
-      * __MoviesList.jsx__ `(path="/")`
-      * __DetailedMoviesList.jsx__ `(path="/movies")`
-        * __DetailedMovie.jsx__ 
-      * __FullMovie.jsx__ `(path="/movies/:movieId")`
-        * __Details.jsx__
-        * __TheaterList.jsx__ 
-        * __ReviewList.jsx__ 
-      * __TheaterList.jsx__ `(path="/theaters")`
+  * __app.js__ 
+      * __Header.js__ 
+      * __MoviesList.js__ `(path="/")`
+      * __DetailedMoviesList.js__ `(path="/movies")`
+        * __DetailedMovie.js__ 
+      * __FullMovie.js__ `(path="/movies/:movieId")`
+        * __Details.js__
+        * __TheaterList.js__ 
+        * __ReviewList.js__ 
+      * __TheaterList.js__ `(path="/theaters")`
 
 ## Back-end Structure
 
@@ -119,8 +119,8 @@ The app's functionality includes:
       * created_at,
       * updated_at
   * movies_theaters (database table)
-      * movie_id (foreign key from the movies table)
-      * theater_id (foreign key from the theaters table), 
+      * movie_id (foreign key from the "movies" table)
+      * theater_id (foreign key from the "theaters" table), 
       * is_showing,
       * created_at,
       * updated_at
@@ -461,7 +461,7 @@ The app's functionality includes:
 
 1. Fork and clone this respository.
 1. Run `npm run env`.
-1. Update `.env` file with the connection URL's.
+1. Update the `.env` file with the connection URL's.
 1. Run `npm run install` to install project dependencies.
 1. Run `npm run start` to start your app in development mode.
 
