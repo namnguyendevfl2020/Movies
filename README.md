@@ -7,7 +7,7 @@ You can access a working prototype of the ReactJs app here: https://namnguyen-mo
 * [Screenshots](#Screenshots)
 * [Functionality](#Functionality)
 * [Technology Used](#Technology-Used)
-* [Front-end Route Structure](#Front-end-Route-Structure)
+* [Front-end Structure](#Front-end-Structure)
 * [Back-end Structure](#Back-end-Structure)
 * [API documentation](#API-Documentation)
 * [Room for Improvement](#Room-For-Improvement)
