@@ -1,0 +1,21 @@
+{
+  "name": "We-love-movies",
+  "version": "1.0.0",
+  "description": "Movies app",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm -prefix front-end run build",
+    "preinstall": "npm i --save-dev concurrently",
+    "install": "concurrently \"cd ./back-end && npm install\" \"cd ./front-end && npm install\"",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "npm --prefix ./back-end run start",
+    "start:frontend": "npm --prefix ./front-end start",
+    "start:dev": "npx concurrently \"npm run start:dev --prefix ./back-end\" \"npm start --prefix ./front-end\" "
+  },
+  "keywords": [],
+  "author": "Thinkful, Inc., Nam Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
