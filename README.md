@@ -11,7 +11,6 @@ You can access a working prototype of the ReactJs app here: https://namnguyen-mo
 * [Back-end Structure](#Back-end-Structure)
 * [API documentation](#API-Documentation)
 * [Room for Improvement](#Room-For-Improvement)
-* [Database Setup](#Database-Setup)
 * [Installation](#Installation)
 * [Acknowledgements](#Acknowledgements)
 * [Contact](#contact)
@@ -450,12 +449,6 @@ The app's functionality includes:
   ```
 
   The response _must_ have `404` as the status code response.
-
-
-## Database Setup
-
-1. Set up four new ElephantSQL database instances - development, test, preview, and production - by following the instruction in the "PostgreSQL: Creating & Deleting Databases" checkpoint.
-1. After setting up your database instances, connect DBeaver to your new database instances by following the instruction in the "PostgreSQL: Installing DBeaver" checkpoint.
 
 ## Installation
 
