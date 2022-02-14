@@ -1,5 +1,5 @@
-# We-love-movies  
-We-love-movies is an app created for users to review movies with their showing theaters.
+# We love movies  
+We love movies is an app created for users to review movies with their showing theaters.
 You can access a working prototype of the ReactJs app here: https://namnguyen-movies-frontend.herokuapp.com 
 
 ## Table of Contents
