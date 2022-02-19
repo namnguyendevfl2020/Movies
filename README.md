@@ -464,7 +464,7 @@ If you have trouble getting the server to run, reach out for assistance.
 ## Acknowledgements
 
 - This project was inspired by Thinkful We-love-movies capstone.
-- Many thanks to [Thinkful](https://www.thinkful.com/), [Marius Banea](https://www.linkedin.com/in/mariusbanea/), and [Stackoverflow](https://stackoverflow.com/).
+- Many thanks to [Thinkful](https://www.thinkful.com/), and [Stackoverflow](https://stackoverflow.com/).
 
 ## Contact
 Created by [Nam Nguyen](https://namnguyen-portfolio.vercel.app) - feel free to contact me!
